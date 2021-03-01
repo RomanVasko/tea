@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Чайные коллекции</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">Logo</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Главная</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Преимущества</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Цены</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Контакты</a>
+                </li>
+            </ul>
+            <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Поиск чая" aria-label="Search">
+                <button class="btn btn-outline-primary" type="submit">Поиск</button>
+            </form>
+        </div>
+    </div>
+</nav>
+
+<div class="container">
+    <h1 class="text-center m-5">
+        Наши чайные коллекции
+    </h1>
+    <div class="card-deck d-flex flex-wrap justify-content-center">
+        <div class="card me-4 mb-4" style="width: 21rem;">
+            <img src="images/image2.png" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Детокс чай лайм</h5>
+                <p class="font-size-25">Великолепный чай внесет в вашу жизнь яркие краски и вкус расслабления</p>
+                <a href="#" class="btn btn-primary">Подробнее</a>
+            </div>
+        </div>
+        <div class="card mx-4 mb-4" style="width: 21rem;">
+            <img src="images/image2-2.png" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Ягодный чай</h5>
+                <p class="card-text">Нотки ягод позволят вам расслабиться и насладиться великолепием этого чая</p>
+                <a href="#" class="btn btn-primary">Подробнее</a>
+            </div>
+        </div>
+        <div class="card ms-4 mb-4" style="width: 21rem;">
+            <img src="images/image2-4.png" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Цветочный чай</h5>
+                <p class="card-text">Душистые цветы создают невероятный аромат и наполняют вас энергией</p>
+                <a href="#" class="btn btn-primary">Подробнее</a>
+            </div>
+        </div>
+        <div class="card mt-4 me-4" style="width: 21rem;">
+            <img src="images/image2-1.png" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Очищающий чай</h5>
+                <p class="card-text">Бесподобный чай для получения утреннего заряда бодрости</p>
+                <a href="#" class="btn btn-primary">Подробнее</a>
+            </div>
+        </div>
+        <div class="card mt-4 mx-4" style="width: 21rem;">
+            <img src="images/image2-3.png" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Кислый чай</h5>
+                <p class="card-text">Кислый чай для настоящих ценителей кислинки во время чаепития</p>
+                <a href="#" class="btn btn-primary">Подробнее</a>
+            </div>
+        </div>
+        <div class="card mt-4 ms-4" style="width: 21rem;">
+            <img src="images/image2-5.png" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Лимонная мята</h5>
+                <p class="card-text">Смесь лимона с мятой сделает ваш день самым лучшим</p>
+                <a href="#" class="btn btn-primary">Подробнее</a>
+            </div>
+        </div>
+    </div>
+    <h2 class="text-center m-5">
+        Сделать заказ
+    </h2>
+    <div class="col-lg-6 my-0 mx-auto">
+        <form class="row g-3 needs-validation" novalidate>
+            <div class="col-md-4">
+                <label for="validationCustom01" class="form-label">Имя</label>
+                <input type="text" class="form-control" id="validationCustom01" required>
+                <div class="valid-feedback">
+                    Looks good!
+                </div>
+            </div>
+            <div class="col-md-4">
+                <label for="validationCustom02" class="form-label">Фамилия</label>
+                <input type="text" class="form-control" id="validationCustom02" required>
+                <div class="valid-feedback">
+                    Looks good!
+                </div>
+            </div>
+            <div class="col-md-4">
+                <label for="validationCustom03" class="form-label">Телефон</label>
+                <input type="text" class="form-control" id="validationCustom03" required>
+                <div class="valid-feedback">
+                    Looks good!
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <label for="validationCustom04" class="form-label">Страна</label>
+                <select class="form-select" id="validationCustom04" required>
+                    <option selected disabled value=""></option>
+                    <option>...</option>
+                </select>
+                <div class="invalid-feedback">
+                    Please select a valid country.
+                </div>
+            </div>
+            <div class="col-md-6">
+                <label for="validationCustom05" class="form-label">Индекс</label>
+                <input type="text" class="form-control" id="validationCustom05" required>
+                <div class="invalid-feedback">
+                    Please provide a valid index.
+                </div>
+            </div>
+            <div class="col-md-12">
+                <label for="validationCustom05" class="form-label">Адрес</label>
+                <input type="text" class="form-control" id="validationCustom06" required>
+                <div class="invalid-feedback">
+                    Please provide a valid address.
+                </div>
+            </div>
+            <div class="col-12">
+                <button class="btn btn-primary" type="submit">Отправить</button>
+            </div>
+        </form>
+    </div>
+</div>
+<nav class="navbar navbar-light bg-light mt-5">
+    <div class="container-fluid">
+        <a class="navbar-brand text-secondary fs-6" href="#">Все права защищены</a>
+    </div>
+</nav>
+
+</body>
+</html>
